@@ -3,7 +3,7 @@
 
 > Yonsei Univ. Data Science Lab 21-1 모델링 프로젝트
 >
-> 4기 서기원,  4기 호은재, 5기 류세화, 5기 김현준
+> 4기 서기원, 4기 호은재, 5기 류세화, 5기 김현준
 
 ---
 
@@ -25,19 +25,23 @@ Test Data: 멜론 2019년 연간차트의 1~20위 곡의 각 100개 리뷰를 �
 
 ## BERT란?
 
-해당 문서 참고
+[BERT](https://wikidocs.net/115055)
 
-KoBERT
+[KoBERT](https://github.com/SKTBrain/KoBERT)
 
 <br/>
 
 ## 결과
 
-BERT(multilingual)과 KoBERT의 결과를 비교해보았습니다.
+BERT(multilingual)와 KoBERT의 결과를 비교해보았습니다.
 
-<img width="655" alt="Screen Shot 2021-03-19 at 6 30 53 PM" src="https://user-images.githubusercontent.com/46921003/111759717-3e597000-88e1-11eb-9d55-a06529ade1db.png">
+<img width="500" alt="Screen Shot 2021-03-19 at 6 30 53 PM" src="https://user-images.githubusercontent.com/46921003/111759717-3e597000-88e1-11eb-9d55-a06529ade1db.png">
 
+- 노란색 박스: KoBERT가 일반 BERT 보다 좋은 성능을 보인 곡
+- 빨간 박스: 사재기 의혹이 있었던 곡들이기에 0.5에 가까운 수치를 보여줌
+- 초록색 박스: 수치가 높게 나온 곡들
 
+<img width="500" alt="Screen Shot 2021-03-19 at 6 30 27 PM" src="https://user-images.githubusercontent.com/46921003/111759658-2eda2700-88e1-11eb-975f-accda0dcfe9e.png">
 
-<img width="675" alt="Screen Shot 2021-03-19 at 6 30 27 PM" src="https://user-images.githubusercontent.com/46921003/111759658-2eda2700-88e1-11eb-975f-accda0dcfe9e.png">
+**해당 결과는 개인적인 분석에 의한 결과 제시이며, 언급된 가수와 곡들에 대한 사재기 단언이 아님을 강조합니다.*
 
